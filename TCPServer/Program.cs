@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Client
+namespace TCPServer
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("yo");
         }
     }
 }

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{A4FCFC79-E6DA-4212-A481-999654BCC1A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPServer", "Server\UDPServer.csproj", "{A4FCFC79-E6DA-4212-A481-999654BCC1A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{10F1804D-F87D-48F1-94CE-00B4772C6C0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServer", "TCPServer\TCPServer.csproj", "{882BCEB4-A85A-41E3-9581-856F9ED66848}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{10F1804D-F87D-48F1-94CE-00B4772C6C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10F1804D-F87D-48F1-94CE-00B4772C6C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10F1804D-F87D-48F1-94CE-00B4772C6C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{882BCEB4-A85A-41E3-9581-856F9ED66848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882BCEB4-A85A-41E3-9581-856F9ED66848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{882BCEB4-A85A-41E3-9581-856F9ED66848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882BCEB4-A85A-41E3-9581-856F9ED66848}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
