@@ -10,6 +10,7 @@ namespace TCPServer
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("TCPServer");
         }
     }
 }
